@@ -1,0 +1,202 @@
+body {
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover;
+}
+.nav1 a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.heading {
+    text-align: center;
+    padding: 50px;
+}
+.heading h2 {
+    color: deeppink;
+}
+.heading p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first input {
+    border: solid 1px #000000;
+    border-radius: 5px;
+    padding: 10px;
+    float: right;
+    margin-right: 100px;
+}
+.second {
+    background-color: #ebb2b5;
+    max-width: 1350px;
+}
+.second h2 {
+    display: flex;
+    transform: translate(10%, 300%);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+.second img {
+    width: 500px;
+    margin-right: 150px;
+}
+.second p {
+    border: solid 1px #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+    transform: translate(120%, -350%);
+    padding: 20px;
+    width: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.fourth {
+    background-color:#e3b8ce;
+    max-width: 1350px;
+    height: 550px;
+}
+.fourth h2 {
+    color: rgb(201, 71, 114);
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-wrap: break-word;
+    margin-left: 40px;
+}
+.fourth img {
+    width: 350px;
+}
+.fourth ul {
+    font-size: xx-large;
+    transform: translate(10%,-250%);
+    color: rgb(245, 220, 234);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fourth p {
+    border: solid 1px #000000;
+    background-color: #ffffff;
+    color: rgb(187, 21, 104);
+    transform: translate(120%, -600%);
+    padding: 20px;
+    width: 100px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+#imgkylie {
+    border: solid 1px #00000054;
+    width: 250px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.fifth2 {
+    margin-left: 150px;
+    border: solid 1px #00000065;
+    width: 250px;
+    height: 100px;
+    background-color: #ffffff;
+}
+#pkylie {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-left: 10px;
+}
+#add1 {
+    width: 100px;
+}
+#imgkkw {
+    border: solid 1px #00000054;
+    width: 250px;
+    height: 400px;
+    margin-right: 150px;
+    transform: translate(-50%, -125%);
+}
+#pkkw {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    margin-left: 20px;
+}
+.sixth2 {
+    margin-left: 800px;
+    transform: translate(1.4%, -493%);
+    border: solid 1px #00000065;
+    width: 250px;
+    height: 100px;
+    background-color: #ffffff;
+}
+#add2 {
+    width: 100px;
+}
+#offer {
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    transform: translate(-2%, -1100%);
+}
+.seventh img {
+    border: solid 1px rgba(0, 0, 0, 0.377);
+    text-decoration: none;
+    width: 200px;
+    height: 90px;
+    transform: translate(-450%, -300%);
+}
+.eighth img {
+    border: solid 1px rgba(0, 0, 0, 0.377);
+    text-decoration: none;
+    width: 200px;
+    height: 90px;
+    transform: translate(-300%, -395%);
+}
+.ninth img {
+    border: solid 1px rgba(0, 0, 0, 0.377);
+    text-decoration: none;
+    width: 200px;
+    height: 90px;
+    transform: translate(-150%, -492%);
+}
+.tenth img {
+    border: solid 1px rgba(0, 0, 0, 0.377);
+    text-decoration: none;
+    width: 200px;
+    height: 90px;
+    transform: translate(-10%, -590%);
+}
+footer {
+    height: 300px;
+    background-color: #000000;
+}
+.nav2 {
+    margin: 20px 50px 100px;
+}
+.nav2 a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.nav3 a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+footer img {
+    width: 50px;
+    display: inline;
+    float: right;
+    margin-top: 100px;
+}
+@media screen and (max-width: 1000px) {
+    .first, .fourth, .second, .fifth2, .sixth2, .seventh, .tenth, .eighth, .ninth {
+        width: 100%
+    }
+}
